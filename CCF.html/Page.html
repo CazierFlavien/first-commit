@@ -16,13 +16,13 @@
             text-align: center;
         }
         .zone-bleue {
-            background-color: rgb(0, 102, 204);
-            color: white;
+            background-color: rgb(81, 148, 214);
+            color: rgb(0, 0, 0);
             padding: 20px;
             text-align: center;
         }
         .zone-jaune {
-            background-color: rgb(255, 204, 0);
+            background-color: rgb(86, 184, 119);
             color: rgb(0, 0, 0);
             padding: 10px;
             text-align: center;
@@ -30,12 +30,25 @@
             float: right; /* Flotter à droite */
         }
         .zone-verte {
-            background-color: rgb(51, 153, 51);
-            color: white;
+            background-color: rgb(63, 109, 177);
+            color: rgb(0, 0, 0);
             padding: 20px;
             text-align: center;
             width: 50%; /* Moitié de la largeur */
             float: left; /* Flotter à gauche */
+        }
+        .nouvelle-zone {
+            background-color: rgb(207, 166, 83);
+            color: rgb(0, 0, 0);
+            padding: 20px;
+            text-align: center;
+        }
+        .zones-wrapper {
+            width: 100%;
+        }
+        .lien-google {
+            text-decoration: none;
+            color: rgb(113, 66, 145);
         }
     </style>
 </head>
@@ -43,15 +56,26 @@
     <h1 class="titre-rouge">Je suis le plus gros titre HTML</h1>
     <div class="zone-bleue">
         <p>Je suis un site composé de 3 div principales Avec les classes : Menu, Corps et<br> Footer. Le corps possède une propriété qui permet d'avoir une certaine hauteur de 350px. Le pied de page<br> est à 100px et le menu 75. À la fin de ce paragraphe, il y aura 2 div de contenu. Fin de paragraphe</p>
+        <div class="zones-wrapper">
+            <div class="zone-jaune">
+                <p>Dans cette div verte Voici un petit tableau avec une class table </p>
+            </div>
+            <div class="zone-verte">
+                <p>Dans cette div Bleu voici une image </p>
+            </div>
+        </div>
     </div>
-    <div class="zone-jaune">
-        <p>Zone jaune avec du texte.</p>
-    </div>
-    <div class="zone-verte">
-        <p>Zone verte avec du texte.</p>
+    <div class="nouvelle-zone">
+        <a href="https://www.google.com" target="_blank">je suis un lien vers google</a>
+
     </div>
 </body>
 </html>
+
+
+
+
+
 
 
 
