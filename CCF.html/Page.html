@@ -3,22 +3,55 @@
 <head>
     <style>
         .titre-rouge {
-            background-color: red;
-            color: white;
+            background-color: rgb(161, 69, 69);
+            color: rgb(255, 28, 28);
             padding: 10px;
             text-align: center;
             margin-bottom: 10px; /* Espace entre le titre et le texte en dessous */
         }
-        .texte-rouge {
-            background-color: red;
-            color: white;
+        .texte-noir {
+            background-color: rgb(83, 204, 252);
+            color: rgb(0, 0, 0);
             padding: 10px;
             text-align: center;
+        }
+        .zone-bleue {
+            background-color: rgb(0, 102, 204);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .zone-jaune {
+            background-color: rgb(255, 204, 0);
+            color: rgb(0, 0, 0);
+            padding: 10px;
+            text-align: center;
+            width: 50%; /* Moitié de la largeur */
+            float: right; /* Flotter à droite */
+        }
+        .zone-verte {
+            background-color: rgb(51, 153, 51);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            width: 50%; /* Moitié de la largeur */
+            float: left; /* Flotter à gauche */
         }
     </style>
 </head>
 <body>
     <h1 class="titre-rouge">Je suis le plus gros titre HTML</h1>
-    <p class="texte-rouge">Debut de paragraphie : Je suis un site composé de 3 div principales Avec les class : Menu , Corps et Footer. Le corps possède une propiété qui permet d'avoir une certaine hauteur de 350px. Le footer est à 100px et le menu 75. à la fin de ce paragraphe il y aura 2 div de contenue .fin de paragraphe</p>
+    <div class="zone-bleue">
+        <p>Je suis un site composé de 3 div principales Avec les classes : Menu, Corps et<br> Footer. Le corps possède une propriété qui permet d'avoir une certaine hauteur de 350px. Le pied de page<br> est à 100px et le menu 75. À la fin de ce paragraphe, il y aura 2 div de contenu. Fin de paragraphe</p>
+    </div>
+    <div class="zone-jaune">
+        <p>Zone jaune avec du texte.</p>
+    </div>
+    <div class="zone-verte">
+        <p>Zone verte avec du texte.</p>
+    </div>
 </body>
 </html>
+
+
+
